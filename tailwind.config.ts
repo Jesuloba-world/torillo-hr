@@ -56,7 +56,12 @@ const config = {
 					DEFAULT: "hsl(var(--card))",
 					foreground: "hsl(var(--card-foreground))",
 				},
+				"bizedge-blue": {
+					// DEFAULT: "hsl(var(--primary))",
+					50: "hsl(var(--blue-50))",
+				},
 				"light-grey": "hsl(var(--light-grey))",
+				"darker-grey": "hsl(var(--darker-grey))",
 				"sky-blue": "hsl(var(--sky-blue))",
 			},
 			borderRadius: {

@@ -17,7 +17,7 @@ export default function RootLayout({
 		<html lang="en">
 			<body className={blackSans.className}>
 				<Header />
-				{children}
+				<div className="mx-auto max-w-[1105px] pb-5">{children}</div>
 			</body>
 		</html>
 	);

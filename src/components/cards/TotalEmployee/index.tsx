@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Rectangle from "@/assets/Rectangle-pattern.svg";
+import Rectangle from "@/assets/rectangle-pattern.svg";
 import Link from "next/link";
 
 export const TotalEmployeeCard = () => {

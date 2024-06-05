@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { CardWrapper } from "../wrapper";
 import { LeaveCard } from "./leaveCard";
+import { OtherActions } from "@/components/otherActions";
 
 export const PeopleOnLeave = () => {
 	return (
@@ -13,9 +14,14 @@ export const PeopleOnLeave = () => {
 							View employees on leave at a glance.
 						</p>
 					</div>
-					<Button className="bg-muted py-2.5 px-[22px]">
-						View all
-					</Button>
+					{/* View all should take a user to a more detailed page, but the design 😒 */}
+					<OtherActions
+						button={
+							<Button className="bg-muted hover:bg-bizedge-green-100 py-2.5 px-[22px]">
+								View all
+							</Button>
+						}
+					/>
 				</div>
 				<div className="flex gap-4">
 					{leaveData.map((e, i) => (

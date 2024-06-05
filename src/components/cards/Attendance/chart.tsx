@@ -41,15 +41,15 @@ export const Chart = () => {
 			</ResponsiveContainer>
 			<div className="flex gap-2 justify-around">
 				<div className="flex items-center gap-2">
-					<div className="w-3 h-3 bg-[hsl(222,100%,89%)]" />
+					<div className="w-3 h-3 bg-[hsl(222,100%,89%)] rounded-[2px]" />
 					<p className="text-xs">Present</p>
 				</div>
 				<div className="flex items-center gap-2">
-					<div className="w-3 h-3 bg-[hsl(0,100%,95%)]" />
+					<div className="w-3 h-3 bg-[hsl(0,100%,95%)] rounded-[2px]" />
 					<p className="text-xs">Absent</p>
 				</div>
 				<div className="flex items-center gap-2">
-					<div className="w-3 h-3 bg-[hsl(39,92%,83%)]" />
+					<div className="w-3 h-3 bg-[hsl(39,92%,83%)] rounded-[2px]" />
 					<p className="text-xs">Out of Work</p>
 				</div>
 			</div>

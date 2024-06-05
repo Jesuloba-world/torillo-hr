@@ -11,7 +11,14 @@
 		--light-grey: 0 0% 95%;
 		--darker-grey: 0 0% 65%;
 		--sky-blue: 194 100% 91%;
+
 		--blue-50: 223 60% 95%;
+		--blue-100: 222 60% 91%;
+		--blue-500: 223 60% 53%;
+
+		--green-50: 187 61% 95%;
+		--green-100: 185 60% 91%;
+		--green-500: 185 60% 41%;
 
 		--card: 0 0% 100%;
 		--card-foreground: 222.2 84% 4.9%;
@@ -25,6 +32,11 @@
 
 		--secondary: 39 92% 91%;
 		--secondary-foreground: 40 93% 41%;
+		--secondary-50: 40 92% 95%;
+		--secondary-100: 39 92% 91%;
+		--secondary-200: 40 94% 81%;
+		--secondary-600: 40 93% 41%;
+		--secondary-700: 39 93% 31%;
 
 		--muted: 0 0% 95%;
 		--muted-foreground: 0 0% 53%;

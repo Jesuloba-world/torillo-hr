@@ -35,6 +35,11 @@ const config = {
 				secondary: {
 					DEFAULT: "hsl(var(--secondary))",
 					foreground: "hsl(var(--secondary-foreground))",
+					50: "hsl(var(--secondary-50))",
+					100: "hsl(var(--secondary-100))",
+					200: "hsl(var(--secondary-200))",
+					600: "hsl(var(--secondary-600))",
+					700: "hsl(var(--secondary-700))",
 				},
 				destructive: {
 					DEFAULT: "hsl(var(--destructive))",
@@ -59,6 +64,14 @@ const config = {
 				"bizedge-blue": {
 					// DEFAULT: "hsl(var(--primary))",
 					50: "hsl(var(--blue-50))",
+					100: "hsl(var(--blue-100))",
+					500: "hsl(var(--blue-500))",
+				},
+				"bizedge-green": {
+					// DEFAULT: "hsl(var(--primary))",
+					50: "hsl(var(--green-50))",
+					100: "hsl(var(--green-100))",
+					500: "hsl(var(--green-500))",
 				},
 				"light-grey": "hsl(var(--light-grey))",
 				"darker-grey": "hsl(var(--darker-grey))",

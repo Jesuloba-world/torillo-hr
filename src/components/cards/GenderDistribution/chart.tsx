@@ -57,7 +57,7 @@ export const GenderDistributionChart = () => {
 				{data.map((e, i) => (
 					<div key={i} className="flex items-center gap-2">
 						<div
-							className="w-3 h-3"
+							className="w-3 h-3 rounded-[2px]"
 							style={{ backgroundColor: e.color }}
 						/>
 						<p className="text-xs">{e.name}</p>
